@@ -1,0 +1,20 @@
+{
+    "/1.1/*": {
+      "target": "https://api.twitter.com",
+      "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/oauth/*": {
+      "target": "https://api.twitter.com",
+      "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/oauth2/*": {
+      "target": "https://api.twitter.com",
+      "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+  }
